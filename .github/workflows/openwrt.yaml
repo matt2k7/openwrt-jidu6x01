@@ -1,10 +1,7 @@
 name: Openwrt Build for JIDU6101 and JIDU6J01
 
 on:
-  push:
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *" # At 12:00 AM
 
 jobs:
   build:
